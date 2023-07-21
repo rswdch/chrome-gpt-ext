@@ -1,3 +1,3 @@
-
+chrome.sidePanel.setPanelBehavior({openPanelOnActionClick: true});
 console.log("This is a popup!")
-window.location.replace("http://stackoverflow.com");
+window.location = "http://stackoverflow.com";

@@ -4,9 +4,12 @@
   "description": "Base Level Extension",
   "version": "1.0",
   "action": {
+    "default_title": "Click to open panel",
     "default_icon": "hello_extensions.png"
   },
   "side_panel": {
-    "default_path": "hello.html"
-  }
+    "default_path": "hello.html",
+    "openPanelOnActionClick": "true"
+  },
+  "permissions": ["sidePanel"]
 }
