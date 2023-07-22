@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "Sidebar Clipboard History",
+  "description": "Save your clipboard history to the new Chrome Sidebar",
   "version": "1.0",
   "action": {
     "default_title": "Click to open panel",
@@ -22,13 +22,13 @@
       "matches": ["<all_urls>"]
         }
     ],
-  "content_scripts": [
+  "content_scripts": [ 
     {
-          "matches": ["<all_urls>"],
+      "matches": ["<all_urls>"],
       "all_frames": true,
       "css": [],
       "js": ["content-script.js"],
-          "run_at": "document_end"
-        }
+      "run_at": "document_end"
+      }
     ]
 }
